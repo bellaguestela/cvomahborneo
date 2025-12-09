@@ -44,6 +44,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id" suppressHydrationWarning>
+      <head>
+        <meta name="facebook-domain-verification" content="umvydk84exi4ysrecp3onjjdt6f5td" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground`}
       >
